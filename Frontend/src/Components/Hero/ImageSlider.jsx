@@ -6,6 +6,8 @@ const images = [
   "https://via.placeholder.com/600/771796",
   "https://via.placeholder.com/600/24f355",
   "https://via.placeholder.com/600/d32776",
+  "https://via.placeholder.com/600/d32776",
+  "https://via.placeholder.com/600/d32776",
 ];
 
 const ImageSlider = () => {
@@ -34,34 +36,36 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="relative w-full max-w-[80%] h-[400px] mx-auto">
-      <img
-        src={images[currentIndex]}
-        alt={`Slide ${currentIndex + 1}`}
-        className="w-full h-auto rounded-lg"
-      />
-      <button
-        onClick={prevImage}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full p-2"
-      >
-        &#10094;
-      </button>
-      <button
-        onClick={nextImage}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full p-2"
-      >
-        &#10095;
-      </button>
-      <div className="flex justify-center mt-4">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => goToImage(index)}
-            className={`w-3 h-3 mx-1 rounded-full ${
-              currentIndex === index ? "bg-blue-600" : "bg-gray-300"
-            }`}
-          />
-        ))}
+    <div>
+      <div className="relative w-full max-w-[80%]  mx-auto">
+        <img
+          src={images[currentIndex]}
+          alt={`Slide ${currentIndex + 1}`}
+          className="w-full rounded-lg h-[400px]"
+        />
+        <button
+          onClick={prevImage}
+          className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full p-2"
+        >
+          &#10094;
+        </button>
+        <button
+          onClick={nextImage}
+          className="absolute top-1/2 right-4 transform -translate-y-1/2 text-white bg-black bg-opacity-50 rounded-full p-2"
+        >
+          &#10095;
+        </button>
+        <div className="flex justify-center mt-4">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToImage(index)}
+              className={`w-3 h-3 mx-1 rounded-full ${
+                currentIndex === index ? "bg-blue-600" : "bg-gray-300"
+              }`}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
