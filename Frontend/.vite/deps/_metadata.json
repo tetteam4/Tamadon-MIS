@@ -1,5 +1,15 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  "hash": "98d6f1eb",
+  "configHash": "3d2fa7b2",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "15fc3841",
+  "optimized": {},
+  "chunks": {}
+=======
+>>>>>>> 8a2a1bdc83552a2cc947701f3d687dbfb45c71b4
   "hash": "89acfb5d",
   "configHash": "af2a1fdc",
   "lockfileHash": "a991be58",
@@ -23,6 +33,7 @@
       "file": "chunk-GFWMZNU4.js"
     }
   }
+<<<<<<< HEAD
 =======
   "hash": "98d6f1eb",
   "configHash": "3d2fa7b2",
@@ -31,4 +42,7 @@
   "optimized": {},
   "chunks": {}
 >>>>>>> ali_branch
+=======
+>>>>>>> 2130b017c45d4de8aaf7c38605eeddab897bc254
+>>>>>>> 8a2a1bdc83552a2cc947701f3d687dbfb45c71b4
 }
