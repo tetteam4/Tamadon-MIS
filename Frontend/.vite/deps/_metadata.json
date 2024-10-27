@@ -1,48 +1,73 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  "hash": "98d6f1eb",
+  "hash": "fda890ef",
   "configHash": "3d2fa7b2",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "15fc3841",
-  "optimized": {},
-  "chunks": {}
-=======
->>>>>>> 8a2a1bdc83552a2cc947701f3d687dbfb45c71b4
-  "hash": "89acfb5d",
-  "configHash": "af2a1fdc",
-  "lockfileHash": "a991be58",
-  "browserHash": "62b87bf0",
+  "lockfileHash": "3d190fd7",
+  "browserHash": "28823ebe",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "fc97805c",
+      "fileHash": "786af90a",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "cdf423bf",
+      "fileHash": "82b0afba",
       "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "ba6bf1be",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "fe6eb154",
+      "needsInterop": false
+    },
+    "@mui/material/CssBaseline": {
+      "src": "../../node_modules/@mui/material/CssBaseline/index.js",
+      "file": "@mui_material_CssBaseline.js",
+      "fileHash": "3e24ecd8",
+      "needsInterop": false
+    },
+    "@mui/styles": {
+      "src": "../../node_modules/@mui/styles/index.js",
+      "file": "@mui_styles.js",
+      "fileHash": "839ebe2d",
+      "needsInterop": false
+    },
+    "@mui/material/styles": {
+      "src": "../../node_modules/@mui/material/styles/index.js",
+      "file": "@mui_material_styles.js",
+      "fileHash": "b98d36a7",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-GFWMZNU4": {
-      "file": "chunk-GFWMZNU4.js"
+    "chunk-PH46K2ZC": {
+      "file": "chunk-PH46K2ZC.js"
+    },
+    "chunk-L2Q2RVSC": {
+      "file": "chunk-L2Q2RVSC.js"
+    },
+    "chunk-FH5F62G6": {
+      "file": "chunk-FH5F62G6.js"
+    },
+    "chunk-IBBT6NMJ": {
+      "file": "chunk-IBBT6NMJ.js"
+    },
+    "chunk-IYY37DYW": {
+      "file": "chunk-IYY37DYW.js"
+    },
+    "chunk-FSEYBU3Q": {
+      "file": "chunk-FSEYBU3Q.js"
+    },
+    "chunk-DDNM7ENY": {
+      "file": "chunk-DDNM7ENY.js"
     }
   }
-<<<<<<< HEAD
-=======
-  "hash": "98d6f1eb",
-  "configHash": "3d2fa7b2",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "15fc3841",
-  "optimized": {},
-  "chunks": {}
->>>>>>> ali_branch
-=======
->>>>>>> 2130b017c45d4de8aaf7c38605eeddab897bc254
->>>>>>> 8a2a1bdc83552a2cc947701f3d687dbfb45c71b4
 }
